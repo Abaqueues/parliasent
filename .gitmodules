@@ -1,3 +1,9 @@
 [submodule "TWFYScraper"]
 	path = TWFYScraper
 	url = https://git.cs.bham.ac.uk/jjc257/TWFYScraper.git
+[submodule "twfypreprocessor"]
+	path = twfypreprocessor
+	url = https://git.cs.bham.ac.uk/jjc257/twfypreprocessor.git
+[submodule "samodel"]
+	path = samodel
+	url = https://git.cs.bham.ac.uk/jjc257/samodel.git
