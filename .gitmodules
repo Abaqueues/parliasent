@@ -7,3 +7,6 @@
 [submodule "SAModel"]
 	path = SAModel
 	url = https://git.cs.bham.ac.uk/jjc257/samodel.git
+[submodule "SAWebApp"]
+	path = SAWebApp
+	url = https://git.cs.bham.ac.uk/jjc257/webapp.git
