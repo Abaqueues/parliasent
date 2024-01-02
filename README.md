@@ -1,4 +1,4 @@
-# Sentiment Analysis Pipeline
+# ParliaSent: A UK Parliament Hansard Sentiment Analysis Pipeline
 
 ## Requirements
 
