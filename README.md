@@ -1,7 +1,5 @@
 # Sentiment Analysis Pipeline
 
-## JJC257
-
 ## Requirements
 
 This project was developed using Python 3.11.0 64-bit and to set up the database locally will require users to install PostgreSQL (in this instance, version 14 was used). 
@@ -10,15 +8,15 @@ This project was developed using Python 3.11.0 64-bit and to set up the database
 
 To execute the pipeline, follow the below step-by-step guide. It is recommended that each module is executed in the listed order so that prerequisite data files are available for certain modules to run.
 
-## TWFYScraper
+## twfy-scraper
 
 1. Open and run twfy_scraper.py 
 
-## TWFYPreprocessor
+## twfy-preprocessor
 
 1. Open and run twfy_preprocessor.py
 
-## SAModel
+## parliasent-model
 
 1. Open and run preprocessing.py
 2. Once preprocessing.py has completed execution, open and run modelling.py
@@ -66,7 +64,7 @@ To execute the pipeline, follow the below step-by-step guide. It is recommended 
 
 5. If the import was successful, PSQL will output “COPY” followed by the number of entries imported.
 
-## SAWebApp
+## parliasent-webapp
 
 1. Open web_app.py
 	a. Modify the _DATABASE_URI constant so that it contains your PostgreSQL login details as well as your local host address; for example, "postgresql://postgres:password@127.0.0.1:5432/predicted_data"
