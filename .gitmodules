@@ -1,12 +1,12 @@
-[submodule "TWFYScraper"]
-	path = TWFYScraper
-	url = https://git.cs.bham.ac.uk/jjc257/TWFYScraper.git
-[submodule "TWFYPreprocessor"]
-	path = TWFYPreprocessor
-	url = https://git.cs.bham.ac.uk/jjc257/twfypreprocessor.git
-[submodule "SAModel"]
-	path = SAModel
-	url = https://git.cs.bham.ac.uk/jjc257/samodel.git
-[submodule "SAWebApp"]
-	path = SAWebApp
-	url = https://git.cs.bham.ac.uk/jjc257/webapp.git
+[submodule "twfy-scraper"]
+	path = twfy-scraper
+	url = https://github.com/Abaqueues/twfy-scraper.git
+[submodule "twfy-converter"]
+	path = twfy-converter
+	url = https://github.com/Abaqueues/twfy-converter.git
+[submodule "parliasent-model"]
+	path = parliasent-model
+	url = https://github.com/Abaqueues/parliasent-model.git
+[submodule "parliasent-webapp"]
+	path = parliasent-webapp
+	url = https://github.com/Abaqueues/parliasent-webapp.git
