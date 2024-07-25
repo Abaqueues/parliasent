@@ -1,4 +1,5 @@
 import requests
+from pathlib import Path
 
 #  web_scraper.py
 
