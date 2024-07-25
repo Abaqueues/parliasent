@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+ 
+{% block body %}
+<form method="POST" action="/process_query/">
+    <label for="input_data">Enter MP Name:</label>
+    <input type="text" id="input_data" name="user_input">
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}

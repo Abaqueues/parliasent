@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>ParliaSent: Hansard Sentiment Analysis</title>
+</head>
+
+<body>
+    <h1>ParliaSent: Hansard Sentiment Analysis</h1>
+
+    <a href="{{url_for("index")}}">Index</a>
+    <a href="{{url_for("data")}}">Data</a>
+    <a href="{{url_for("search")}}">Search</a>
+    
+{% block body %}
+<p>
+    <h3>The ParliaSent dataset has been processed by a sentiment analysis model, predicting labels of select speech content by members of parliament over the past ten years.</h3>
+    <h3>This web application exists as a proof of concept, providing a means to query the resulting data and visualise the results.</h3>
+</p>
+{% endblock %}
+</body>
+ 
+</html>
